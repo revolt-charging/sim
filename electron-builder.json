@@ -1,0 +1,20 @@
+{
+    "appId": "com.revolt.sim",
+    "files": [
+        "dist-react",
+        "dist-electron"
+    ],
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": [
+            "portable",
+            "msi"
+        ]
+    }
+}
