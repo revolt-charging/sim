@@ -4,6 +4,9 @@
         "dist-react",
         "dist-electron"
     ],
+    "extraResources": [
+        "dist-electron/preload.cjs"
+    ],
     "mac": {
         "target": "dmg"
     },
